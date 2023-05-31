@@ -8,3 +8,16 @@
 
 */
 
+// Operador 'typeof' retorna o tipo da variável.
+
+let numero = 5436;
+let texto = "Olá";
+let indefinido;
+let vazio = null;
+let boleano = true;
+
+console.log("'numero' é do tipo:",typeof(numero));
+console.log("'texto' é do tipo:",typeof(texto));
+console.log("'indefinido' é do tipo:",typeof(indefinido));
+console.log("'vazio' é do tipo:",typeof(vazio));
+console.log("'boleano' é do tipo:",typeof(boleano));

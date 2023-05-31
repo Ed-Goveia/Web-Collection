@@ -1,16 +1,15 @@
 // # var, let, const: servem para definir uma variável, cada método com sua peculiaridade.
 
-// ## Método 'var': 
+// Método 'var': 
 
-var one = "Valor X"
-console.log("Método 'var': " + one)
+var one = "Valor mutável";
+console.log("Método 'var':", one);
+one = "Viu? Eu mudei";
+console.log("Método 'var':", one);
 
+// Método 'const': define variáveis imutáveis, retornando um erro caso haja a tentativa de mudança posterior a sua declaração.
 
-// ## Método 'const': define variáveis imutáveis, retornando um erro caso haja a tentativa de mudança posterior a sua declaração.
+const two = "Valor de constante"; 
+console.log("Método 'const': " + two);
 
-const two = "Valor de origem"
-// two = "Valor novo"
-console.log("Método 'const': " + two)
-
-
-// ## Método 'let': 
+// Método 'let': 
