@@ -2,7 +2,7 @@
 
 let maior = 50;
 let menor = 20;
-let valor_x = 20
+let valor_x = 20;
 
 // '>' verifica se o número da esquerda é maior que o da direita.
 
@@ -26,5 +26,11 @@ console.log("É menor ou igual?", igual);
 
 // "===" verifica se os valores são iguais
 
-let igualdade = menor === valor_x
-console.log("Tem o mesmo valor?", igualdade)
+let igualdade = menor === valor_x;
+console.log("Tem o mesmo valor?", igualdade);
+
+//  '!==' verifica se os valores são diferentes
+
+let diferente = menor !== maior;
+console.log("São diferentes?", diferente);
+
