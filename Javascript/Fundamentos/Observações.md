@@ -1,0 +1,1 @@
+";" No JavaScript é opcional em muitos casos de acordo com ASI.
