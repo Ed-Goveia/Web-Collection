@@ -1,0 +1,34 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; */
+
+  /*Ou shorthand, como:*/
+
+  background: url(./assets/bg-mobile.jpg) no-repeat top center / cover;
+}
+
+/* Margin: auto --> 'pode' centralizar na horizontal, já que o CSS nativamente 'calcula' para todas as direções mas não aplica na vertical*/
+#container {
+  border: 1px solid #b22c2c;
+  width: 360px;
+  height: 712px;
+  margin: auto;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img{
+    width: 112px;
+}
